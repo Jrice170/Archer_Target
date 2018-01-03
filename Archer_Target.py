@@ -86,21 +86,6 @@ def score(r):
         value = 0
     return value
 
-            
-        
-        
-## text code
-### The following logic gates are the hart of this program
-### The gates set the paramiters for the rings
-### HOW I Wrote this program explaned below
-""" What the logic gates are based off of is the radius of the circle. As you will see looking at my code the project starts form the small circle, the yellow one. As the radius gets biger
-i compinsate with the logic gates. anyway hope that helps
-"""" This will be the same sequence thoughout the the rest of the code"""
-## for try 1 and this sequence will read. 
-## radus of 1
-##radius  = sqrt(Try_1.getX()**2 + Try_1.getY()**2)
-
-### code useing the function
 r = radus(Try_1.getX(),Try_1.getY())
 value = score(r)
 total_score.append(value)
@@ -155,16 +140,6 @@ Total_score.setText(message_New5)
 cir_5 = Circle(Point(Try_5.getX(),Try_5.getY()),0.1)
 cir_5.setFill("black")
 cir_5.draw(win)
-
-
-
-"""
-
-#### DUME code tells me where a point is at  
-##print(Try_1.getX(),Try_1.getY())
-not in use
-"""
-
 
 message.setText("click to see total")
 win.getMouse()
